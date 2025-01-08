@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #ff6699;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .emoji {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="emoji">🎉🎂 Happy Birthday, <span id="name">Your Girlfriend's Name</span>! 🎂🎉</h1>
+    <p>Today, I celebrate you and all the wonderful moments we've shared. 💖</p>
+    <p>You're the sunshine that brightens my life, and I'm so lucky to have you by my side. ☀️✨</p>
+    <h2>Special Birthday Quotes for You:</h2>
+    <ul>
+        <li>"Count your age by friends, not years. Count your life by smiles, not tears." - John Lennon</li>
+        <li>"The best way to remember your birthday is to forget it once." - Unknown</li>
+        <li>"You’re not older, you’re just a little closer to your dreams." - Unknown</li>
+    </ul>
+    <p>May your day be filled with love, laughter, and unforgettable memories! ❤️🎁</p>
+</body>
+</html>
