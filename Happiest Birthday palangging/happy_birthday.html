@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #ff6699;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .emoji {
+            font-size: 2em;
+        }
+        .surprise-btn {
+            background-color: #ff6699;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .surprise-btn:hover {
+            background-color: #ff3377;
+        }
+        #surprise-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 1.5em;
+            color: #ff3377;
+        }
+        .birthday-image {
+            margin: 20px 0;
+            max-width: 80%;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+    <script>
+        function revealSurprise() {
+            const surpriseMessage = document.getElementById('surprise-message');
+            surpriseMessage.style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1 class="emoji">🎉🎂 Happy Birthday, <span id="name">Your Girlfriend's Name</span>! 🎂🎉</h1>
+    <p>Today, I celebrate you and all the wonderful moments we've shared. 💖</p>
+    <p>You're the sunshine that brightens my life, and I'm so lucky to have you by my side. ☀️✨</p>
+
+    <h2>Special Birthday Quotes for You:</h2>
+    <ul>
+        <li>"Count your age by friends, not years. Count your life by smiles, not tears." - John Lennon</li>
+        <li>"The best way to remember your birthday is to forget it once." - Unknown</li>
+        <li>"You’re not older, you’re just a little closer to your dreams." - Unknown</li>
+    </ul>
+
+    <!-- Birthday Image -->
+    <img src="C:\Users\User\OneDrive\Desktop\Happiest Birthday palangging\img" >
+
+    <!-- Surprise Button -->
+    <button class="surprise-btn" onclick="revealSurprise()">Click for a Surprise!</button>
+
+    <!-- Surprise Message -->
+    <div id="surprise-message">
+        🎁🎉 You are the most special person in my life! I can't wait to celebrate many more birthdays with you. I love you Gamatoyy nako na palangginggg! ❤️
+    </div>
+</body>
+</html>
